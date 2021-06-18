@@ -1,0 +1,23 @@
+*
+{
+    background-color: yellow;
+}
+.whole_one{
+padding: 0px 40px;
+    border: 5px solid black;
+}
+.heading_one{
+	text-align: center;
+	font-size: 25px;
+	background-color: darkgray;
+}
+.head_one{
+	font-size: 30px;
+}
+.mid_one{
+	font-size: 25px;
+}
+.foot_one{
+	font-size: 22px;
+	font-weight: bold;
+}
