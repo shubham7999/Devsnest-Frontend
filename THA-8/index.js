@@ -1,4 +1,5 @@
-const center = document.getElementById("main");
+const val = document.getElementById("main");
+var center = val;
 center.addEventListener("click",(a)=>{
     let cls = a.target.className;
     if(cls === "center white")
