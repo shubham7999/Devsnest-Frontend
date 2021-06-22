@@ -1,5 +1,6 @@
 const val = document.getElementById("main");
 var center = val;
+const  boxes = document.getElementsByClassName("center")
 center.addEventListener("click",(a)=>{
     let cls = a.target.className;
     if(cls === "center white")
@@ -20,3 +21,21 @@ center.addEventListener("click",(a)=>{
     }
     
 });
+
+
+// for(let i=0;i<boxes.length;i++)
+// {
+//     boxes[i].addEventListener("click", ()=>{
+//      let check =boxes[i].classList.contains('red');
+//      if(check==true)
+//      {
+//         boxes[i].classList.add('blue');
+//         boxes[i].classList.remove('red');
+//      }
+//      else{
+//         boxes[i].classList.add('red');
+//         boxes[i].classList.remove('blue');
+//      }
+//      console.log("sh");
+//     });
+// }
