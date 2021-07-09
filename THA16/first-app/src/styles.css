@@ -1,0 +1,22 @@
+.box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.chess{
+   width: 500px;
+    margin-left: 170px;
+    border: 10px solid black;
+    margin-top: 20px;
+}
+
+.chess>div:nth-child(even) {
+        
+    background-color: black;
+  }
+
+  .chess>div:nth-child(odd) {
+     background-color: white;
+  }
