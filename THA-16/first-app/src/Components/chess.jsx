@@ -1,4 +1,4 @@
-import Box from '../Components/box'
+import Box from './box'
 function chess()
 {
     return(
